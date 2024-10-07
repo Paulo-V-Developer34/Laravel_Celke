@@ -9,6 +9,6 @@ class CourseController extends Controller
     //Listar os cursos
     public function index()
     {
-        dd("Listar"); #vardump #Não sei o que é "vardump" em PHP ;-;
+        dd("Listar"); #vardump #vardump é como se fosse o console.log do php
     }
 }
