@@ -8,6 +8,6 @@ Route::get('/', function () {
 });
 
 //criando a rota dos cursos
-// Route::get('/nomerota',[nomecontroller::class, nomemetodo])
+// Route::get('/nomerota',[nomecontroller::class, nome-metodo-que-será-usado])->name('nome.da.route')
 Route::get('/', [UserController::class, 'index'])->name('user.index');
-Route::post('user-import', [UserController::class], 'import')->name('user.import');
+Route::post('user-import', [UserController::class, 'import'])->name('user.import');
