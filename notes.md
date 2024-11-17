@@ -1,8 +1,10 @@
 # Notas e aprendizados
 
-## criação de uma rota
+## Comandos artisan
 
-1. utilizar "php artisan make:controller nomecontroller".
+1. utilizar "php artisan make:controller nomecontroller" para criar uma controller.
+2. utilizar "php artisan make:view nomepasta/nomearquivo" para criar uma view.
+3. utilizar "php artisan make(ou é outra palavra):migration" para executar as migrations.
 
 ## Padrões
 
